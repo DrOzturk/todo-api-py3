@@ -4,13 +4,13 @@ Restful API for todo app.
 run this
 `python app.py`
 
-Send POST request in postman:
-http://localhost:5000/todo/api/v1.0/add
-in Body/x-www-form-urlencoded
-title   Buy Bananas
-description   Buy them from Kroger 
+Send POST request in postman:   
+http://localhost:5000/todo/api/v1.0/add   
+setting these in Body/x-www-form-urlencoded   
+title   Buy Bananas   
+description   Buy them from Kroger    
 
-it should return you JSON with status "201 Created":
+it should return you JSON with status "201 Created":   
 ```JSON
 {
   "task": {
