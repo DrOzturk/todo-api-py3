@@ -1,6 +1,6 @@
 # todo-api-py3
 
-Restful API for todo app.
+Restful API for a sample todo app using Flask in Python 3.
 run this
 `python app.py`
 
