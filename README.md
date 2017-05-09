@@ -11,6 +11,7 @@ title   Buy Bananas
 description   Buy them from Kroger 
 
 it should return you JSON with status "201 Created":
+```JSON
 {
   "task": {
     "description": "Buy them from Kroger ",
@@ -19,10 +20,12 @@ it should return you JSON with status "201 Created":
     "title": "Buy Bananas"
   }
 }
+```
 
 Access this one in browser, or do a GET request in Postman:
 http://localhost:5000/todo/api/v1.0/tasks
 It should give you:
+```JSON
 {
   "tasks": [
     {
@@ -45,3 +48,4 @@ It should give you:
     }
   ]
 }
+```
